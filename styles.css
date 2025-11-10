@@ -36,11 +36,14 @@ body {
 }
 
 .click{
-    opacity: 0;
+    position: relative;
+    display: flex;
+    opacity: 0%;
+    font-size: 0.7rem;
     font-style: oblique;
     align-items: end;
-    font-size: 0px;
     padding: 20px;
+    margin: 20px;
 }
 
 .container{
@@ -66,7 +69,7 @@ body {
 }
 
 .Category:hover{
-    flex: 2;
+    flex: 3;
     font-size: 3.5rem;
     text-shadow: 20px 20px 20px rgba(0, 0, 0, 0.5);
     color: rgba(255, 255, 255, 1);
@@ -75,7 +78,7 @@ body {
 .Category:hover .click{
     opacity: 50%;
     align-items: end;
-    justify-content: end;
+    justify-content: center;
     letter-spacing: 0.6rem;
     font-size: 1rem;
     transition: 1s;
@@ -83,7 +86,7 @@ body {
 
 .Category:hover .img{
     opacity: 100%;
-    width: 75%;
+    width: 70%;
 }
 
 /* Colores de categorías */

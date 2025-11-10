@@ -32,6 +32,6 @@ containers.forEach(container => {
     });
 });
 
-category.addEventListener('mouseleave', () => {
+//category.addEventListener('mouseleave', () => {
     //image.style.width = '90%'
-})
+//})
